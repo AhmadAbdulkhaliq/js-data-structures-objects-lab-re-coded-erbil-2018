@@ -1,6 +1,6 @@
 // Write your solution in this file!
 let driver ={};
 
-function updateDriverWithKeyAndValue(driver,key,value){
- return Object.assign({},driver ,{[key]:value});
+function updateDriverWithKeyAndValue(object,key,value){
+ return Object.assign({},object ,{[key]:value});
 }
